@@ -33,5 +33,10 @@ def dict_num_square(l):
     return dicti
 
 
-squares = dict_num_square(list1)
+cuadr = dict_num_square(list1)
+print(cuadr)
+
+
+#same code as before!!!!! OMG
+squares = { num: num**2 for num in range(1, 31)}
 print(squares)
